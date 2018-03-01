@@ -1,0 +1,63 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+body{
+	background: url("../img/bg.jpeg");
+	/*background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+  overflow: hidden;*/
+  overflow-x: hidden;
+}
+
+.jumbotron{
+	background-color:rgba(238, 238, 238, 0.4);;
+}
+
+h1{
+	font-size: 100px !important;
+}
+
+h2{
+	color: #095e66;
+}
+
+.tagline{
+	font-family: 'Architects Daughter', cursive;
+	color: crimson;
+	text-align: center;
+	font-weight: bold;
+	//font-size: 20px !important;
+	text-shadow: 1px 1px #607d8b;
+}
+
+.h1Style{
+	text-shadow: 2px 2px #ff0000;
+    color: #f70cc4 !important; 
+}
+
+.leafLeft{
+	//margin-left: -40px;
+	transform: translate(-25%, -15%);
+}
+
+.leafRight{
+	margin-right: -50px;
+	transform: scaleX(-1)translate(-25%, -15%);//
+}
+
+.proJuice{
+	text-align: center;
+	filter: drop-shadow(0px 0px 10px rgba(0,0,0,.8));
+}
+
+
+
+
+
+
+
+
